@@ -7,11 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
+import { CartComponent } from './cart/cart.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CartComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
